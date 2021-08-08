@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+    height: 100vh
+  }
+  .container {
+    display: flex;
+    
+  }
+  
+  .nav {
+    /*position: fixed;*/
+    width: 25vw;
+    /* height: 100%; */
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image : url(p.jpg);
+    background-size: cover;
+    height: 100vh;
+    min-height: 100%
+  }
+  
+  .content {
+    width: 65vw;
+    padding: 1rem 5rem;
+    background-image: url(q.jpg);
+    background-size: cover;
+    /* opacity: 0.5; */
+  }
+  
+  .start {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    /* font-size: larger; */
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+  }
+  
+  .input-place p {
+    color: antiquewhite;
+    font-size: larger;
+  }
+  .form {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 1.5rem;
+  }
+  .form button {
+    width: 5rem;
+    background-color: yellow;
+    color: black;
+    border: none;
+
+  }
+  .buttons {
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    
+  }
+  #forecast {
+    margin-top: 2rem;
+    height: 2.2rem;
+  }
+  #n_days {
+    height: 2rem;
+    margin-top: 2rem;
+  }
+  #submit {
+    width: 7.5rem;
+    height: 1.5rem;
+    margin-left: 5px;
+    border: double;
+    background-color: rgb(252, 251, 249);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    border-radius: 4px;
+  }
+  #submit:hover {
+    background-color: rgb(128, 156, 158); /* Green */
+    color: black;
+  }
+  #submit:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .buttons button {
+    width: 7.5rem;
+    height: 2.5rem;
+    border: double;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    border-radius: 4px;
+  }
+  .buttons button:hover {
+    background-color: rgb(137, 154, 155); /* Green */
+    color: black;
+  }
+  .buttons button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .header p {
+    font-size: 4rem;
+    margin-left: 3rem;
+    line-height: 80%;
+  }
+  .Foo {
+    position:fixed;bottom:0;
+    margin: auto;
+    margin-left: 10px;
+    display:block;
+    color: antiquewhite;
+}
+  #logo {
+    max-width: 15rem;
+    height: auto;
+  }
